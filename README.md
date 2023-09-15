@@ -266,8 +266,8 @@ someElement.removeChild(someChildElement);
 Let's take a look at a more complex example:
 
 ```js
-const ul = document.getElementsByTagName("ul")[0];
-const secondChild = ul.querySelector("li:nth-child(2)");
+const secondChild = ul.const ul = document.getElementsByTagName("ul")[0];
+querySelector("li:nth-child(2)");
 ul.removeChild(secondChild);
 ```
 
